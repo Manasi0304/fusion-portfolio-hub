@@ -25,6 +25,7 @@ const Section = ({
                 {subtitle}
               </p>
             )}
+            {centerTitle && <div className="section-divider mt-6"></div>}
           </div>
         )}
         {children}

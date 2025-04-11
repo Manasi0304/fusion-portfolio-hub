@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ArrowDown, Code, Briefcase, Star } from 'lucide-react';
 import CustomButton from './ui/CustomButton';
 
@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <div className="space-y-6 max-w-2xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Creative <span className="gradient-text glow">Developer</span> Crafting Digital Experiences
+                Creative <span className="gradient-text">Developer</span> Crafting Digital Experiences
               </h1>
               
               <p className="text-lg text-foreground/80">
@@ -55,9 +55,9 @@ const Hero = () => {
           
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-              <div className="absolute inset-0 rounded-full bg-primary/20 animate-pulse"></div>
-              <div className="absolute inset-4 rounded-full bg-primary/30 animate-bounce"></div>
-              <div className="absolute inset-8 rounded-full bg-secondary animate-spin-slow"></div>
+              <div className="absolute inset-0 rounded-full bg-primary/10 animate-pulse"></div>
+              <div className="absolute inset-4 rounded-full bg-primary/20 animate-bounce"></div>
+              <div className="absolute inset-8 rounded-full bg-secondary/40 animate-spin-slow"></div>
               <div className="absolute inset-12 rounded-full bg-background flex items-center justify-center text-6xl font-bold text-primary">
                 D
               </div>
